@@ -10,7 +10,7 @@ public class PersonApp {
         // person2.name = "Jane";
         // person2.age = 30;
 
-        person1.sayHello("budi");
+        person1.sayHello("adam");
 
         System.out.println(person1.name);
         System.out.println(person1.age);
