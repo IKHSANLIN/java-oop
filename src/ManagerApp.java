@@ -2,12 +2,14 @@ class Manager {
     String name;
 
     void sayHello(String name) {
-        System.out.println("Hello " + name + ", my name is " + this.name);
+        System.out.println("Hello " + name + ", my name is Manager " + this.name);
     }
 }
 
 class VicePresident extends Manager {
-
+    void sayHello(String name) {
+        System.out.println("Hello " + name + ", my name is VP " + this.name);
+    }
 }
 public class ManagerApp{
     public static void main(String[] args) {
