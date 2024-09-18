@@ -15,6 +15,9 @@ class Rectangle extends Shape{
 
 public class SuperApp{
     public static void main(String[] args) {
+        var shape = new Shape();
+        System.out.println(shape.getCornor());
+
         var reactable = new Rectangle();
         System.out.println(reactable.getCornor());
         System.out.println(reactable.getParentConrner());
